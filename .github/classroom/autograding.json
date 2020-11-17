@@ -1,0 +1,94 @@
+{
+  "tests": [
+    {
+      "name": "part1case1",
+      "setup": "",
+      "run": "python part1.py",
+      "input": "3\r\n5\r\n7\r\n9\r\n11",
+      "output": "35",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "part1case2",
+      "setup": "",
+      "run": "python part1.py",
+      "input": "2\r\n5\r\n0\r\n-1\r\n-6",
+      "output": "0",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "part2case2",
+      "setup": "",
+      "run": "python part2.py",
+      "input": "10",
+      "output": "('Ten times your number is', 100)\r\n('Ninety-nine more than your number is', 109)\r\n",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "part3case1",
+      "setup": "",
+      "run": "python part3.py",
+      "input": "3\r\n7",
+      "output": "('The sum of your numbers is', 10)\r\n('Seven times your second number is', 49)",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "part3case2",
+      "setup": "",
+      "run": "python part3.py",
+      "input": "1\r\n10",
+      "output": "('The sum of your numbers is', 11)\r\n('Seven times your second number is', 70)",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "part4case1even",
+      "setup": "",
+      "run": "python part4.py",
+      "input": "5\r\n10",
+      "output": "25",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "part4case2odd",
+      "setup": "",
+      "run": "python part4.py",
+      "input": "3\r\n5",
+      "output": "7.5",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "part5case1",
+      "setup": "",
+      "run": "python part5.py",
+      "input": "\"Yugi\"\r\n\"Moto\"",
+      "output": "('Hello,', 'Yugi Moto')",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "part5case2",
+      "setup": "",
+      "run": "python part5.py",
+      "input": "\"Calvin\"\r\n\"Fischoeder\"",
+      "output": "('Hello,', 'Calvin Fischoeder')",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    }
+  ]
+}
